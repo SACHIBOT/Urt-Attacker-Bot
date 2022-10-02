@@ -1,4 +1,4 @@
-# Urt-Attacker-Bot#
+# Urt-Attacker-Bot
 
 ```bash
 cd && termux-setup-storage
@@ -14,6 +14,9 @@ apt install -y git nodejs ffmpeg imagemagick && apt install yarn
 
 ```bash
 git clone https://github.com/ravindudil5han/Urt-Attacker-Bot
+```
+```bash
+cd Urt-Attacker-Bot
 ```
 
 ```bash
@@ -34,4 +37,12 @@ npm install
 
 ```bash
 npm start
+```
+# Allways online mode
+
+```bash
+rm -rf /usr/local/lib/node_modules/pm2
+```
+```bash
+npm i -g pm2 && pm2 start index.js && pm2 save
 ```
