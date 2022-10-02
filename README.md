@@ -1,8 +1,5 @@
 # Urt-Attacker-Bot
 
-```bash
-cd && termux-setup-storage
-```
 
 ```bash
 apt-get update -y && apt-get upgrade -y
