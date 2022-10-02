@@ -8,7 +8,7 @@
 
 
 
-
+ <hr>
 # Urt-Attacker-Bot
 
 
@@ -46,6 +46,7 @@ npm install
 ```bash
 npm start
 ```
+ <hr>
 # Allways online mode
 
 ```bash
@@ -54,17 +55,16 @@ rm -rf /usr/local/lib/node_modules/pm2
 ```bash
 npm i -g pm2 && pm2 start index.js && pm2 save
 ```
-
-#QR code
  <hr>
-   
-   [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@Jayarathne-technical/Nila-Bot-Session)
+
+# QR code
+
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@Jayarathne-technical/Nila-Bot-Session)
   
-  <hr>
+   <hr>
 
-#Heroku 
- <hr>
- 
+# Heroku 
+
  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ravindudil5han/Urt-Attacker-Bot)
  
  <hr>
