@@ -23,16 +23,48 @@
     "themysticbot",
     "themystic-bot",
     "themystic-bot-md"],
-  "image": "heroku/nodejs",
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
+ "env": {
+      "USER_NAME": 
+      {
+          "description": "Enter Your Name",
+          "value": "",
+          "required": false
+      },
+      "HEROKU_API_KEY": 
+      {
+          "description": "Enter your Heroku api key",
+          "required": false
+      } ,
+  
+      
+
+    "NILA_SESSION": {
+        "description": "Enter your Session",
+        "required": false,
+        "value": "Nila_QR@;R0RuclJNTmc="
+        
+    } ,
+
+    "SUDO": {
+        "description": "Sudo Numbers here",
+        "required": false,
+        "value": ""
+        
+    }
+    
     },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
-    }    
- ]
-}
+    "addons": [{
+        "plan": "heroku-postgresql"
+      }],
+      "buildpacks": [{
+        "url": "heroku/nodejs"
+        }] ,
+        "formation": {
+            "worker": {
+                "quantity": 1,
+                "size": "free"
+            }
+        }
+    }
+    
+  
