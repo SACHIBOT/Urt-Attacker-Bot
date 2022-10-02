@@ -55,6 +55,16 @@ rm -rf /usr/local/lib/node_modules/pm2
 npm i -g pm2 && pm2 start index.js && pm2 save
 ```
 
-#Heroku 
+#QR code
+ <hr>
+   
+   [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@Jayarathne-technical/Nila-Bot-Session)
+  
+  <hr>
 
+#Heroku 
+ <hr>
+ 
  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ravindudil5han/Urt-Attacker-Bot)
+ 
+ <hr>
