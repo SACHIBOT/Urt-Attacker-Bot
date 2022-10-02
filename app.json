@@ -1,0 +1,38 @@
+{
+  "name": "JAYARATHNA whatsapp spam bot",
+  "website": "https://github.com/ravindudil5han/Urt-Attacker-Bot",
+  "description": "JFteam",
+  "repository": "https://github.com/ravindudil5han/Urt-Attacker-Bot",
+  "logo": "https://github.com/ravindudil5han/Urt-Attacker-Bot/blob/7949fa9f16c030aeff9a209703b680a555a89c14/Menu2.jpg",
+  "success_url": "https://github.com/ravindudil5han/Urt-Attacker-Bot",
+  "keywords": [
+    "nodejs",
+    "heroku",
+    "bot",
+    "bots",
+    "bot",
+    "spanish",
+    "whatsapp",
+    "termux",
+    "shadow",
+    "multi-device",
+    "md",
+    "whatsappbot",
+    "oficial",
+    "whatsapp-md",
+    "themysticbot",
+    "themystic-bot",
+    "themystic-bot-md"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
+    }    
+ ]
+}
