@@ -25,7 +25,7 @@ global.owner = [
 ] // Cambia los numeros que quieras
 global.suittag = ['94772601056'] 
 global.mods = ['94712117136'] 
-global.prems = [] 
+global.prems = ['94716388240'] 
 
 global.APIs = { // API Prefix
   // name: 'https://website'
