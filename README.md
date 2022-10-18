@@ -55,7 +55,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save
 
 # QR code
 
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@Jayarathne-technical/JfSpam-Bot-for-UrtMembers?v=1?outputonly=1&lite=1#index.js))
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@Jayarathne-technical/JfSpam-Bot-for-UrtMembers?v=1?outputonly=1&lite=1#index.js)
 
    <hr>
 
